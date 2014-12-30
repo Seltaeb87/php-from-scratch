@@ -25,7 +25,7 @@ echo 'Multiplied result: ' . $result . '<br>';
 
 //the modulus %
 $result = $iNum % $iNum2;
-echo 'Multiplied result: ' . $result . '<br>';
+echo 'Modulus result: ' . $result . '<br>';
 
 // Modulus in this case: 3x3=9 and the leftover is 1. That's the modulus.
 
