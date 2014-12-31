@@ -15,9 +15,9 @@
 
 	//if $sName is Bastiaan OR Bas, show the welcome message.
 	if ($sName == 'Bastiaan' || $sName == 'Bas') {
-		echo 'Hello ' . $sName;
+		echo 'Hello ' . $sName . '<br>';
 	}else{
-		echo 'You\'re <b>not</b> Bastiaan or Bas..';
+		echo 'You\'re <b>not</b> Bastiaan or Bas.. <br>';
 	}
 
 
