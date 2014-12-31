@@ -1,6 +1,6 @@
 <?php
 
-	//Logical Operators: AND OR ! - && || !
+	//Logical Operators: AND OR ! - && || ! (! means not)
 
 	$iNum = 27;
 
@@ -18,6 +18,16 @@
 		echo 'Hello ' . $sName;
 	}else{
 		echo 'You\'re <b>not</b> Bastiaan or Bas..';
+	}
+
+
+	$sDog = 'John';
+
+	// if $sDog is NOT equal to Billy is, execute the first step. If $sDog is Billy, go to the 'else' statement.
+	if($sDog != 'Billy'){
+		echo 'That\'s not your dogs name!';
+	}else{
+		echo 'Your dogs name is ' . $sDog;
 	}
 
 
