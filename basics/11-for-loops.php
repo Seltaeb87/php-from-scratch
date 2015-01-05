@@ -9,10 +9,23 @@
      		No: Stop the loop.
     */ 
 
+    echo 'Plus <br>';
 	for ($iNum=0; $iNum <= 10 ; $iNum++) { 
 		echo $iNum . '<br>';
 	}
 
+
+	echo 'Minus <br>';
 	//p.s: Ofcourse this can also be with minus and so on.
+		for ($iNum=10; $iNum >= 1 ; $iNum--) { 
+		echo $iNum . '<br>';
+	}
+
+
+	echo 'Table of 2 <br>';
+	//Table of 2
+		for ($iNum=2; $iNum <= 20 ; $iNum = $iNum + 2) { 
+		echo $iNum . '<br>';
+	}
 
 ?>
