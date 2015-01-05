@@ -9,8 +9,8 @@
      		No: Stop the loop.
     */ 
 
-	for ($i=0; $i <= 10 ; $i++) { 
-		echo $i . '<br>';
+	for ($iNum=0; $iNum <= 10 ; $iNum++) { 
+		echo $iNum . '<br>';
 	}
 
 ?>
