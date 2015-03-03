@@ -1,5 +1,4 @@
 <?php
-
 $levels = array(
 	1 => array(
 		'name' => 'Level 1',
@@ -14,10 +13,7 @@ $levels = array(
 		'desc' => 'You\'ve reached the final level!'
 		)
 );
-
 echo '<pre>', print_r($levels, true), '</pre>';
-
 //It will give you information about variable $levels
 //var_dump($levels);
-
 ?>
